@@ -3,6 +3,7 @@ const socket = require("socket.io");
 const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3001;
+var socketManager = require("./SocketManager.js");
 
 // Define API routes here
 
